@@ -24,3 +24,6 @@ jobs:
           key: ${{ runner.os }}-node-
           restore-keys: |
             ${{ runner.os }}-node-
+
+      - name: Use Secret
+        run: echo "Using secret: ${{ secrets.MY_SECRET }}"
