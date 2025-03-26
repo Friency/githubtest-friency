@@ -1,2 +1,2 @@
-Hello Git
-Feature update
+First change
+Second change
